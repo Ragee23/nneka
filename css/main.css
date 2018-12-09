@@ -1,0 +1,253 @@
+html{
+  font-family: 'Open Sans';
+  font-size: 14px;
+  text-decoration: none;
+  width: 1024px;
+  height: 1344px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+}
+
+header{
+  height: 173px;
+  width: 940px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-right: -10px;
+  padding-bottom: 10px;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: rgb(255, 255, 255);
+}
+
+.right span{
+  margin-top: 15px;
+}
+
+#button{
+  background-color: rgb(166, 172, 182);
+  padding: 8px;
+  border-radius: 6px;
+  box-shadow: inset 2px 2px 2px #FFF;
+  color: #3E454C;
+  font-size: 20px;
+}
+
+/* Navigation */
+
+nav{
+  height: 40px;
+  background-color: rgb(111, 123, 135);
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li{
+  padding: 12px 22px;
+  border-right: 1px solid rgb(212, 206, 189);
+  color: rgba(0,0,0,0.99);
+}
+
+#last{
+  border-right: none;
+}
+
+/*Jumbotron*/
+
+div.jumbotron{
+  background-image: url("http://lh3.googleusercontent.com/VsLGZyd9WiSEyb2iLm4xQajKMZpfB6oG0RgazgrNW9uAFkXZQCX8Y1YURU-gQi0cBva3W6-G6y9AXMP7LxGSrTTC=s940");
+  width: auto;
+  height: 310px;
+  background-repeat: round;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid pink;
+  height: 310px;
+  margin-left: 391px;
+}
+
+.container h2{
+  font-size: 28px;
+  font-weight: 400;
+  font-family: Regan Medium;
+}
+
+#Miss{
+  color: rgb(82, 82, 82);
+  font-size: 35px;
+}
+
+#Degrees{
+  color: #6F7B87;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+/*Main Content*/
+
+.main_content{
+  background-color: rgb(212, 206, 189);
+  border-top: 2px solid #FFF;
+}
+
+.main_content h2{
+  color: rgb(82, 82, 82);
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 88px;
+  margin-bottom: 20px;
+}
+
+.main_content p{
+  color: #525252;
+  font-size: 16.5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.One, .Two, .Three {
+  width: 270px;
+}
+
+.Four{
+  width: 100%;
+  height: 34px;
+  padding: 20px 0px 80px 0px;
+}
+
+.Four h1{
+  color: rgb(82, 82, 82);
+  font-size: 40px;
+  margin-left: 15px;
+}
+
+.row_1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.row_1 a{
+  color: rgb(111, 123, 135);
+  font-size: 15px;
+}
+
+/*Side Content*/
+
+.side_content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-top: 2px solid #FFF;
+  background-color: rgb(111, 123, 135);
+  color: #cccccc;
+}
+
+.London, .Surrey, .Contact_info{
+  border: 1px solid green;
+  width: 313.5px;
+  height: 200px;
+}
+
+.London{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 40px;
+}
+
+.Welbeck{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.Blackheath{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.Surrey{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 40px;
+}
+
+.Shirley{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.side_content h6{
+  color: #3E454C;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Contact_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 40px;
+}
+
+.Contact_info h6{
+  margin-top: 20px;
+}
+
+.Contact_info span{
+  margin: 20px 0px;
+}
+
+body{
+  width: 940px;
+  padding: 0 42px;
+  background-color: rgb(62, 69, 76);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*Footer*/
+
+footer{
+  color: rgb(212, 206, 189);
+  text-align: right;
+  margin: 20px 0px;
+}
