@@ -93,11 +93,13 @@ div.jumbotron{
 }
 
 #Miss{
+  font-family: 'Open Sans';
   color: rgb(82, 82, 82);
   font-size: 35px;
 }
 
 #Degrees{
+  font-family: 'Open Sans';
   color: #6F7B87;
   font-size: 30px;
   padding-top: 10px;
